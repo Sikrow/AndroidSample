@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
             val dollarValue = dollarText.text.toString().toFloat()
 
-            val euroValue = dollarValue * 0.85f
+            val euroValue = dollarValue * 0.80f
 
             textView.text = euroValue.toString()
         }
